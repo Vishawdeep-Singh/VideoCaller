@@ -27,11 +27,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header>
-          <button onClick={() => setDarkMode(!darkMode)}>
-            Toggle {darkMode ? "Light" : "Dark"} Mode
-          </button>
-        </header>
         {children}
       </body>
     </html>
